@@ -14,6 +14,8 @@
 		9B6DAB36229F45AA0009BA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6DAB34229F45AA0009BA1F /* LaunchScreen.storyboard */; };
 		9B6DAB41229F45AA0009BA1F /* BullsEye1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DAB40229F45AA0009BA1F /* BullsEye1Tests.swift */; };
 		9B6DAB4C229F45AA0009BA1F /* BullsEye1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6DAB4B229F45AA0009BA1F /* BullsEye1UITests.swift */; };
+		9B7FC14A22B488EA008A1FD4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FC14922B488EA008A1FD4 /* AboutViewController.swift */; };
+		9B7FC14C22B48E53008A1FD4 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7FC14B22B48E53008A1FD4 /* AuthorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9B6DAB47229F45AA0009BA1F /* BullsEye1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEye1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6DAB4B229F45AA0009BA1F /* BullsEye1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEye1UITests.swift; sourceTree = "<group>"; };
 		9B6DAB4D229F45AA0009BA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B7FC14922B488EA008A1FD4 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		9B7FC14B22B48E53008A1FD4 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		9B6DAB1F229F45A70009BA1F = {
 			isa = PBXGroup;
 			children = (
+				9B7FC14922B488EA008A1FD4 /* AboutViewController.swift */,
 				9B6DAB2A229F45A70009BA1F /* BullsEye1 */,
 				9B6DAB3F229F45AA0009BA1F /* BullsEye1Tests */,
 				9B6DAB4A229F45AA0009BA1F /* BullsEye1UITests */,
@@ -100,6 +105,7 @@
 				9B6DAB2B229F45A70009BA1F /* AppDelegate.swift */,
 				9B6DAB2D229F45A70009BA1F /* ViewController.swift */,
 				9B6DAB2F229F45A70009BA1F /* Main.storyboard */,
+				9B7FC14B22B48E53008A1FD4 /* AuthorViewController.swift */,
 				9B6DAB32229F45AA0009BA1F /* Assets.xcassets */,
 				9B6DAB34229F45AA0009BA1F /* LaunchScreen.storyboard */,
 				9B6DAB37229F45AA0009BA1F /* Info.plist */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7FC14A22B488EA008A1FD4 /* AboutViewController.swift in Sources */,
 				9B6DAB2E229F45A70009BA1F /* ViewController.swift in Sources */,
 				9B6DAB2C229F45A70009BA1F /* AppDelegate.swift in Sources */,
+				9B7FC14C22B48E53008A1FD4 /* AuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,15 +441,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YP8B5N66Z;
 				INFOPLIST_FILE = BullsEye1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.learnappmaking.BullsEye1;
+				PRODUCT_BUNDLE_IDENTIFIER = techtayag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,15 +460,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YP8B5N66Z;
 				INFOPLIST_FILE = BullsEye1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.learnappmaking.BullsEye1;
+				PRODUCT_BUNDLE_IDENTIFIER = techtayag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
